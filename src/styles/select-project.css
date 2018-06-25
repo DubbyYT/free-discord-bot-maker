@@ -1,0 +1,59 @@
+.select-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #eee;
+}
+
+.select-project > .box {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    background-color: #ffff;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 0 0 8px #ddd;
+}
+
+.select-project > .box > .create {
+    width: 100%;
+    box-sizing: border-box;
+    background: #2ecc71;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.select-project > .box > .list {
+    border: 2px solid #eee;
+    border-radius: 3px;
+    padding: 6px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.select-project > .box > .list > .item {
+    padding: 7px 10px;
+    font-size: 17px;
+    border-radius: 3px;
+    color: #555;
+    cursor: pointer;
+}
+
+.select-project > .box > .list > .item:hover {
+    background-color: #eee;
+}
+
+.select-project > .box > .list > .item:not(:last-child) {
+    margin-bottom: 3px;
+}
+
+.select-project > .box > .list > .item.selected {
+    background-color: #0094cb;
+    color: #fff;
+}

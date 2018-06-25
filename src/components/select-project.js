@@ -7,8 +7,6 @@ const DiscordPassport = require("passport-discord");
 export default class SelectProject extends Component {
     constructor(props) {
         super(props);
-
-        this.checkAuth();
     }
 
     render() {

@@ -36,24 +36,3 @@
     max-height: 300px;
     overflow-y: auto;
 }
-
-.select-project > .box > .list > .item {
-    padding: 7px 10px;
-    font-size: 17px;
-    border-radius: 3px;
-    color: #555;
-    cursor: pointer;
-}
-
-.select-project > .box > .list > .item:hover {
-    background-color: #eee;
-}
-
-.select-project > .box > .list > .item:not(:last-child) {
-    margin-bottom: 3px;
-}
-
-.select-project > .box > .list > .item.selected {
-    background-color: #0094cb;
-    color: #fff;
-}

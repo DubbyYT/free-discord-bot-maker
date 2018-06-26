@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import SelectProject from "./select-project";
+import SelectProject from "./select-project/select-project";
 import BehaviourEditor from "./behaviour-editor/behaviour-editor";
 import "../styles/global.css";
 import CreateProject from "./create-project";
